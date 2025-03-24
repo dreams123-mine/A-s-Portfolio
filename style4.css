@@ -1,0 +1,58 @@
+#contact {
+    padding: 50px;
+    background-color: #f3c1c1;
+    text-align: center;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Always Show Scrollbar */
+html, body {
+    overflow-y: scroll; /* Forces vertical scrollbar */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+    margin-left: 5%
+
+}
+.contact-form {
+    background: white;
+    padding:10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    
+
+}
+.contact-form h2 {
+    color: #d81b60;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    background: #d81b60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #ad1457;
+}
